@@ -1,34 +1,45 @@
-# sql_data_warehouse_project
-building a modern data warehouse with SQL server, including ETL processes, data modeling and analytics
-# Projet EDA avec SQL Server
+# Exploratory Data Analysis (EDA) with SQL Server
 
-Ce projet réalise une analyse exploratoire des données (EDA) avec SQL Server.
-
----
-
-## 📖 Aperçu du projet
-
-Ce projet couvre :
-1. **Exploration de la base** : structure des tables, colonnes, types de données
-2. **Qualité des données** : valeurs manquantes, doublons
-3. **Statistiques descriptives** : min, max, moyenne, médiane, écart-type
-4. **Analyse par dimensions** : catégories, pays, clients, produits...
-5. **Analyse dans le temps** : tendances, évolution mensuelle/annuelle
-6. **Insights clés** : [ex. top produits, meilleurs clients]
-
-🎯 Ce repository est utile pour ceux qui veulent apprendre ou montrer leurs compétences en :
-- SQL Development
-- Data Analysis
-- Exploratory Data Analysis (EDA)
+Welcome to the **EDA with SQL Server** repository! 🚀
+This project demonstrates a complete exploratory data analysis workflow using only **T-SQL**, from exploring the database structure to generating actionable insights. Designed as a portfolio project, it highlights best practices in SQL and data analysis.
 
 ---
 
-## 📂 Structure du repository
+## 🚀 Project Requirements
+
+### Exploring the Data (Data Analysis)
+
+#### Objective
+Perform an exploratory analysis of **[dataset name]** using SQL Server to understand the data, assess its quality, and uncover key patterns that support decision-making.
+
+#### Specifications
+- **Data Source**: Import data from CSV file(s) provided in the `datasets/` folder.
+- **Data Quality**: Detect and handle missing values, duplicates, and inconsistent data before analysis.
+- **Tools**: SQL Server and SQL Server Management Studio (SSMS).
+- **Scope**: Focus on [the full dataset / a specific period], no historization required.
+- **Documentation**: Provide clear SQL scripts with comments explaining each step.
+
+---
+
+## 📊 Analytics & Reporting
+
+#### Objective
+Develop SQL-based analysis to deliver detailed insights into:
+
+- **[Customer Behavior]**
+- **[Product Performance]**
+- **[Sales Trends]**
+
+These insights provide key metrics that support strategic decision-making.
+
+---
+
+## 📂 Repository Structure
 
 ```
 sql-eda-project/
 │
-├── datasets/                  # Fichiers CSV du projet
+├── datasets/                      # Raw CSV files
 │
 ├── scripts/
 │   ├── 01_database_exploration.sql
@@ -38,31 +49,21 @@ sql-eda-project/
 │   ├── 05_time_analysis.sql
 │   └── 06_key_insights.sql
 │
+├── LICENSE
 └── README.md
 ```
 
 ---
 
-## 🛠️ Outils utilisés
+## 🛡️ License
 
-- **SQL Server** : base de données
-- **SSMS** : exécution des requêtes
-- **GitHub** : versioning et partage
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
 
 ---
 
-## 🚀 Comment utiliser
+## 🌟 About Me
 
-1. Cloner le repository :
-   ```bash
-   git clone https://github.com/[ton-pseudo]/[nom-du-repo].git
-   ```
-2. Créer la base de données et importer les CSV du dossier `datasets/`
-3. Exécuter les scripts du dossier `scripts/` dans l'ordre (01 → 06)
+Hi there! I'm **Khadija Baazioui**, a Master's student in Mathematics and Numerical Engineering, specializing in Artificial Intelligence. I'm passionate about data analysis and applied mathematics, and I enjoy turning raw data into meaningful insights.
 
----
-
-## 🙋‍♀️ À propos de moi
-
-Salut ! Je suis **Khadija Baazioui**, étudiante en Master 2 Mathématiques et Ingénierie Numérique, spécialité Intelligence Artificielle. Je m'intéresse à l'analyse de données et aux mathématiques appliquées.
+📫 [LinkedIn](your-link) · [GitHub](your-link)
 

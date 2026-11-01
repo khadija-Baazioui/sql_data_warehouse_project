@@ -2,8 +2,6 @@
 building a modern data warehouse with SQL server, including ETL processes, data modeling and analytics
 # Projet EDA avec SQL Server
 
-Bienvenue dans le repository **[Nom du projet]** 👋
-
 Ce projet réalise une analyse exploratoire des données (EDA) avec SQL Server.
 
 ---

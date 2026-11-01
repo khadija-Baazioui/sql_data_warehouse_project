@@ -65,5 +65,5 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 Hi there! I'm **Khadija Baazioui**, a Master's student in Mathematics and Numerical Engineering, specializing in Artificial Intelligence. I'm passionate about data analysis and applied mathematics, and I enjoy turning raw data into meaningful insights.
 
-📫 [LinkedIn](your-link) · [GitHub](your-link)
+
 
